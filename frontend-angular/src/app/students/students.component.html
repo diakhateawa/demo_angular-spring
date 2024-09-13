@@ -1,0 +1,86 @@
+<div class="container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Students Title</mat-card-title>
+    </mat-card-header>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+    <!--  <mat-form-field appearance="outline">
+        <mat-label>Filter</mat-label>
+      <input matInput (change)="filterStudents($event)">
+      </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Search</mat-label>
+        <input matInput (change)="filterStudents($event)"\>
+      </mat-form-field>
+
+      <table matSort mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+        <ng-container matColumnDef="id">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> ID </th>
+          <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+        </ng-container>
+
+        &lt;!&ndash; Fast Name Column &ndash;&gt;
+        <ng-container matColumnDef="firstName">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> First Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.firstName}} </td>
+        </ng-container>
+
+        &lt;!&ndash; Last Naame Column &ndash;&gt;
+        <ng-container matColumnDef="lastName">
+          <th mat-header-cell *matHeaderCellDef  mat-sort-header> Last Name </th>
+          <td mat-cell *matCellDef="let element"> {{element.lastName}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="paiements">
+           <th mat-header-cell *matHeaderCellDef  mat-sort-header> Paiments</th>
+           <td mat-cell *matCellDef="let element">
+             <button (click)="getPaiements(element)" mat-raised-button color="primary">Paiments</button>
+
+           </td>
+         </ng-container>
+
+
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+      <mat-paginator [pageSizeOptions]="[5, 10, 15, 30, 50, 100]"
+                     showFirstLastButtons
+                     aria-label="Select page of periodic elements">
+      </mat-paginator>
+
+-->
+      <table>
+        <thead>
+        <tr>
+          <th>Id </th>
+          <th> Code</th>
+          <th>FirstaName</th>
+          <th> LasteName</th>
+          <th> ProgramId</th>
+          <th>Photo</th>
+        </tr>
+
+        </thead>
+        <tbody>
+          <tr *ngFor="let student of students">
+            <td>{{student.id}}</td>
+            <td>{{student.code}}</td>
+            <td>{{student.firstaName}</td>
+            <td>{{student.lasteName}}</td>
+            <td>{{student.programId}}</td>
+            <td>{{student.photo}}</td>
+
+          </tr>
+        </tbody>
+
+      </table>
+    </mat-card-content>
+
+  </mat-card>
+
+</div>
+
+

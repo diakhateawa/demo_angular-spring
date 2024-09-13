@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f4bef6c-ad3e-4a1d-b559-5e69f486241c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/controllers/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/models/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/payload/request/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/payload/request/SignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/payload/response/JwtResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/payload/response/MessageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/security/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/security/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/security/jwt/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/security/services/UserDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admin-app/src/main/java/com/awa/adminapp/security/services/UserDetailsServiceImpl.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/backend/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/web/StudentRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="87" selection-start-line="39" selection-start-column="2" selection-end-line="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>styleUrl</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\awa\java\demo_angular-spring\frontend-angular\src\app\models</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/login/login.component.html" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/admin-template/admin-template.component.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/guards/auth.guard.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/guards/authorization.guard.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/services/authentication.service.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/admin-template/admin-template.component.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/entities/PaymentStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/entities/PaymentType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/entities/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/entities/PaiementType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/entities/Paiement.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/repository/PaymentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/repository/PaiementRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/service/PaymentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/web/StudentRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/BackendSprinbootApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/entities/PaiementStatus.java" />
+        <option value="$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/entities/PaiementType.java" />
+        <option value="$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/entities/Student.java" />
+        <option value="$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/entities/Paiement.java" />
+        <option value="$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/service/PaymentService.java" />
+        <option value="$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/repository/PaiementRepository.java" />
+        <option value="$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/service/PaiementService.java" />
+        <option value="$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/web/StudentRestController.java" />
+        <option value="$PROJECT_DIR$/backend-sprinboot/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/pom.xml" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/example/backend/entities/PaiementStatus.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/example/backend/entities/PaiementType.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/example/backend/BackendApplication.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/example/backend/entities/Student.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/example/backend/entities/Paiement.java" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/paiements/paiements.component.html" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/backend/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/environments/environment.development.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/paiements/paiements.component.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/students/students.component.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/models/students.models.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/students/students.component.html" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/example/backend/web/StudentRestController.java" />
+        <option value="$PROJECT_DIR$/frontend-angular/src/app/services/students.service.ts" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/example/backend/repository/PaiementRepository.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/example/backend/repository/StudentRepository.java" />
+        <option value="$PROJECT_DIR$/backend/src/main/java/com/example/backend/service/PaiementService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="backend-sprinboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="backend-sprinboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/demo_angular-spring.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_5_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_5_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_17_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_17_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_17_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_17_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_17_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_17_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_5_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_13_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_13_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_2_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_4_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_14_16.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_14_16.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_2_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_13_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_23_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_23_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_24.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_10_1_24.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_24.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_22.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_25_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_awaitility_awaitility_4_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_42_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_10_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_10_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_10_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_10_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_10_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_10_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_5_11_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_5_11_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_7_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_32.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_2_0_13.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_2_0_13.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_6_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_7_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_jandex_3_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_angus_angus_activation_2_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_4_0_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_4_0_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_4_0_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_5_2_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_5_3_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stephenc_jcip_jcip_annotations_1_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_nimbusds_nimbus_jose_jwt_9_37_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_14_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_oauth2_resource_server_3_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_6_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_6_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_6_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_6_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_resource_server_6_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_6_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_17_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_jakarta_2_2_21.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_jakarta_2_2_21.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_jakarta_2_2_21.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_common_2_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_api_2_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_ui_2_5_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_5_13_0.xml" />
+        <option value="$PROJECT_DIR$/../RecetteFacile/.idea/RecetteFacile.iml" />
+        <option value="$PROJECT_DIR$/../RecetteFacile/.idea/RecetteFacile.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="637" />
+    <option name="height" value="680" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="demo_angular-spring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\awa\java\demo_angular-spring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="demo_angular-spring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\awa\java\demo_angular-spring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="demo_angular-spring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\awa\java\demo_angular-spring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="demo_angular-spring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\awa\java\demo_angular-spring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="demo_angular-spring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\awa\java\demo_angular-spring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="demo_angular-spring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\awa\java\demo_angular-spring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="demo_angular-spring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\awa\java\demo_angular-spring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="demo_angular-spring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\awa\java\demo_angular-spring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="demo_angular-spring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\awa\java\demo_angular-spring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="example" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="demo_angular-spring" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\awa\java\demo_angular-spring" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="backend" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RecetteFacile/RecetteFacile" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\awa\java\demo_angular-spring\frontend-angular\src\app\guards" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.backend.BackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/frontend-angular/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f4bef6c-ad3e-4a1d-b559-5e69f486241c" name="Default Changelist" comment="" />
+      <created>1713183501639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713183501639</updated>
+      <workItem from="1713183505827" duration="264000" />
+      <workItem from="1713183824453" duration="748000" />
+      <workItem from="1713184667678" duration="3027000" />
+      <workItem from="1713187930578" duration="1140000" />
+      <workItem from="1713192752007" duration="1953000" />
+      <workItem from="1713198533923" duration="1146000" />
+      <workItem from="1713203126499" duration="1377000" />
+      <workItem from="1713261771703" duration="1319000" />
+      <workItem from="1713267813985" duration="5042000" />
+      <workItem from="1713275538560" duration="1151000" />
+      <workItem from="1713379476355" duration="229000" />
+      <workItem from="1713780700977" duration="8627000" />
+      <workItem from="1713804739814" duration="545000" />
+      <workItem from="1713811171752" duration="344000" />
+      <workItem from="1713868754316" duration="5518000" />
+      <workItem from="1713971671167" duration="705000" />
+      <workItem from="1714039860186" duration="8978000" />
+      <workItem from="1714125790067" duration="8275000" />
+      <workItem from="1714388034981" duration="1262000" />
+      <workItem from="1714392004812" duration="957000" />
+      <workItem from="1714409278797" duration="77000" />
+      <workItem from="1714411403892" duration="856000" />
+      <workItem from="1715771097693" duration="11925000" />
+      <workItem from="1715854475595" duration="7365000" />
+      <workItem from="1716395025589" duration="5541000" />
+      <workItem from="1716457787418" duration="6885000" />
+      <workItem from="1716481365757" duration="3489000" />
+      <workItem from="1717503663572" duration="1969000" />
+      <workItem from="1717584856996" duration="4869000" />
+      <workItem from="1717677396888" duration="2126000" />
+      <workItem from="1718017937440" duration="574000" />
+      <workItem from="1718022779298" duration="2982000" />
+      <workItem from="1718025947353" duration="3054000" />
+      <workItem from="1718108292946" duration="494000" />
+      <workItem from="1718112389608" duration="5379000" />
+      <workItem from="1718190657192" duration="1276000" />
+      <workItem from="1718192487623" duration="2105000" />
+      <workItem from="1718198463346" duration="7087000" />
+      <workItem from="1718362706388" duration="6231000" />
+      <workItem from="1718814511759" duration="3365000" />
+      <workItem from="1718882632943" duration="32000" />
+      <workItem from="1718882845905" duration="6719000" />
+      <workItem from="1718906892930" duration="544000" />
+      <workItem from="1718965692855" duration="815000" />
+      <workItem from="1718967427729" duration="9658000" />
+      <workItem from="1719230977874" duration="3990000" />
+      <workItem from="1719314368404" duration="5374000" />
+      <workItem from="1719398334105" duration="2485000" />
+      <workItem from="1719484201361" duration="3149000" />
+      <workItem from="1719568066418" duration="134000" />
+      <workItem from="1719574859819" duration="2713000" />
+      <workItem from="1719839320761" duration="979000" />
+      <workItem from="1719915723069" duration="1704000" />
+      <workItem from="1720007191016" duration="4433000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="172985000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="736" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1860817" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37810946" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33996683" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="12" weight="0.2968491" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3283582" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.32980332" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/@material/progress-indicator/foundation.js.map" />
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/@material/progress-indicator/component.js.map" />
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/@material/progress-indicator/foundation.js" />
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/@material/progress-indicator/foundation.d.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/@material/progress-indicator/component.d.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/@material/progress-indicator/component.js" />
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/@material/progress-indicator/component.js.map" />
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/@material/progress-indicator/component.d.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/@material/progress-indicator/foundation.d.ts" />
+        <option value="$PROJECT_DIR$/frontend-angular/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend-angular/src/app/students/students.component.ts</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend-angular/src/app/paiements/paiements.component.ts</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/entities/Student.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/repository/awa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/repository/StudentRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/service/awa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/web/StudentRestController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/BackendSprinbootApplication.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/web/awa.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/service/PaymentService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/awa/backendsprinboot/repository/PaiementRepository.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/entities/awa.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/repository/awa.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/service/awa.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/web/awa.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/service/PaiementService.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/repository/PaiementRepository.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/repository/StudentRepository.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/entities/PaiementStatus.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/entities/PaiementType.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/entities/Student.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/web/StudentRestController.java" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/backend-sprinboot/src/main/java/com/awa/backendsprinboot/entities/Paiement.java" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/entities/awa.java" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/repository/vv.java" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/service/ff.java" />
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/entities/PaiementStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/entities/PaiementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/entities/Paiement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/entities/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/BackendApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="3" column="40" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/services/authentication.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/paiements/paiements.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/guards/auth.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/guards/authorization.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/environments/environment.development.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/students/students.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/paiements/paiements.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/repository/StudentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/repository/PaiementRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/service/PaiementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/models/students.models.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/services/students.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/app/students/students.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend-angular/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/example/backend/web/StudentRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="87" selection-start-line="39" selection-start-column="2" selection-end-line="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
